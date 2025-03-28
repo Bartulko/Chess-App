@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Chess } from "chess.js";
 import { Chessboard } from "react-chessboard";
 
-export default function App() {
+export default function App() { // komenatrz pozdro
   const [game, setGame] = useState(new Chess());
   const [squareStyles, setSquareStyles] = useState({});
   const [selectedSquare, setSelectedSquare] = useState(null);
@@ -37,7 +37,7 @@ export default function App() {
 
   // Obsługa ruchu figury (przeciąganie i kliknięcie)
   const makeMove = (move) => {
-    const newGame = new Chess(game.fen());
+    const newGame = new Chess(game.fen()); 
     const result = newGame.move(move);
 
     if (result) {
