@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Chess } from "chess.js";
 import { Chessboard } from "react-chessboard";
 
-export default function App() {
+export default function App() { // test
   const [game, setGame] = useState(new Chess());
   const [squareStyles, setSquareStyles] = useState({});
   const [selectedSquare, setSelectedSquare] = useState(null);
