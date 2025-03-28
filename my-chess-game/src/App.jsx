@@ -8,7 +8,8 @@ export default function App() { // komenatrz pozdro
   const [selectedSquare, setSelectedSquare] = useState(null);
   const [winner, setWinner] = useState(null); // Przechowuje zwycięzcę gry
 
-  // Pobranie możliwych ruchów dla danej figury
+  // Siema kod 
+  // Pobranie możliwych ruchów dla danej figury 
   const getPossibleMoves = (square) => {
     return game.moves({ square, verbose: true }).map((move) => move.to);
   };
