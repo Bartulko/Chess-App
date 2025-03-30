@@ -1,10 +1,11 @@
 import React from "react";
-import Chessboard from "./components/Chessboard";
+import Board from "./components/Board";
+import './App.css';
 
 const App = () => {
   return (
-    <div className="flex justify-center items-center h-screen bg-green-500">
-      <Chessboard />
+    <div>
+      <Board />
     </div>
   );
 };
