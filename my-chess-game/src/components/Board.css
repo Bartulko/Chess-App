@@ -2,6 +2,7 @@
     display: grid;
     position: relative;
     grid-template-columns: calc(.25*var(--tile-size)) calc(8*var(--tile-size));
+    background-color: #5e5a5a;
 }
 
 .tiles {
